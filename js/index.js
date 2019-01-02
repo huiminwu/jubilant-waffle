@@ -20,11 +20,15 @@ $(document).ready(() => {
     const $P = $('#P');
     const $choiceClass = $('#choiceClass');
     const $choiceR = $('.choiceR');
-    const $returnClass = $('#returnClass');
+    const $returnClass = $('.returnClass');
     const $choiceC = $('.choiceC');
     const $Cactions = $('.Cactions');
     const $choiceP = $('.choiceP');
     const $Pactions = $('.Pactions');
+    const $choicePactions = $('.choicePactions');
+    const $choiceCactions = $('.choiceCactions');
+    const $PD = $('#PD');
+    const $CD = $('#CD');
 
      /*These function hide and show different HTML elements when other elements are clicked. This allows the player to go down different paths.*/
     $Y.on('click', () => {
@@ -75,7 +79,11 @@ $(document).ready(() => {
 
     $returnClass.on('click', () => {
         $choiceR.hide();
+        $choiceP.hide();
+        $choiceC.hide();
         $choiceYPC.show();
+        $choicePactions.hide();
+        $choiceCactions.hide();
         $choiceClass.show();
     });
 
