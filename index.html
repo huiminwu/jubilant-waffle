@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Space Choose-Your-Own Adventure Game</title>
+      <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Yoboto+Mono" rel="stylesheet">
+ 
+</head>
+<body>
+
+<!-- sources: codepen: lillian busse, w3schools.com, codecademy, http://www.burkshelf.com/jquerytutorial.html -->
+   <!--All of the paragraph tags under the prompt class are parts of the story. Things under the button class are button that can be clicked on.  -->
+    <div class="intro prompt">
+        <p> You're walking out of your SciFi class and see a shiny box that's giving you weird vibes. Do you investigate? </p>
+    <div class=" choice1 button">
+      <p id="Y">Yes</p>
+      <p class="N">No</p>
+    </div> 
+   </div>
+    
+    <div class="choiceY prompt a">
+      <p> You sneakily bring the box under your jacket and go to a bathroom. Phew, there's no one here. You proceed to go into a stall and open the box. All of sudden, purple particles jump out and form what looks like a portal. Do you step in? </p>
+      <div class="choice2Y button">
+        <p id="YP">Yeah, I don't care about be late to class</p>
+        <p class="N">No, I need to get to Macro ASAP</p>
+      </div>
+    </div>
+
+    <div class="choiceN prompt a">
+        <p> Wooooww, what a Debbie Downer! Live a little! </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+    
+    <div class="choiceYP prompt a">
+        <h5> <i> Ah yes! I've been waiting for you! Greetings young one, I am your second cousin, twice removed. Even though we're quite distant relatives you are my chosen successor. This might sound insane, but I am the king of the Magic Realm and need to pass down my throne to someone as brave and smart as you. If you agree to this, you'll have to go through lots of tests to prove to my council you are worthy. In the end, if you get their approval, you'll give up your mortal life and commit to life in the Magic Realm. If you do not agree to this or get disapproved, I have no choice but to send you back to the mortal realm. So, what's your choice? </i></h5>
+      <div class="choice2YP button">
+        <p id="YPC">Woah! This is so cool (some might say out of this world)! Let's do this! </p>
+        <p id="NC">Sorry, this is mad wack and I gotta blast! </p>
+      </div>
+    </div>
+
+    <div class="choiceNC prompt a">
+        <p> <i> Okay, I'll transport you back to the end of your SciFi class. It was nice meeting you. </i> </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choiceYPC prompt a">
+        <p> <i> Hooray! So glad you decided to join us! What will your beginner class be? </i> </p>
+        <div class="choiceClass button">
+            <p id="R"> Robot </p>
+            <p id="C"> Centaur </p>
+            <p id="P"> Pegasus </p>
+        </div>
+    </div>
+
+    <div class="choiceR prompt a">
+        <p> <i> Oof. Robots do not belong to the Magic Realm silly! The council isn't happy but you can choose again. </i> </p>
+        <div class="button">
+            <p id="returnClass"> Thank you! I'll be sure to make the right choice next time! </p>
+        </div>
+    </div>
+
+    <div class="choiceC prompt a">
+        <p> <i> Cool! A centaur! Alright, here's an axe for defense. [task 1] </i> </p>
+        <div class="Cactions button">
+            <p id="xx"> Lorem ipsum </p>
+            <p id="yy"> Lorem ipsum </p>
+        </div>
+    </div>
+
+    <div class="choiceP prompt a">
+        <p> <i> Awesome! A pegasus! You've got wings equipped with throwable quills for defense. [task 1] </i> </p>
+        <div class="Pactions button">
+            <p id="xx"> Lorem ipsum </p>
+            <p id="yy"> Lorem ipsum </p>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+
+</html>
