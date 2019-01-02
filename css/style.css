@@ -1,0 +1,38 @@
+body {
+  background-image: url("https://cdn140.picsart.com/238803447085202.jpg");
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: center;
+}
+.prompt {
+  background-color: black;
+  width: 900px; 
+  margin: 0 auto;
+  height: 30px;
+  padding-bottom: 110px;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px solid white;
+}
+
+.a {
+  display: none;
+}/*This hides the other prompts and buttons so they are revealed as the story progresses. */
+  
+.button p {
+  display: inline-block;
+  background-color: black;
+  width: 200px;
+  margin: 20px 10px;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid white;
+  
+}
+.button {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+
