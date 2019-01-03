@@ -29,6 +29,15 @@ $(document).ready(() => {
     const $choiceCactions = $('.choiceCactions');
     const $PD = $('#PD');
     const $CD = $('#CD');
+    const $choicePD = $('.choicePD');
+    const $PDZombie = $('.PDZombie');
+    const $PDQuill = $('#PDQuill');
+    const $PDRun = $('#PDRun');
+    const $PDDodge = $('#PDDodge');
+    const $choiceCD = $('.choiceCD');
+    const $CDLocate = $('#CDLocate');
+    const $CDRavine = $('#CDRavine');
+    const $CDWillow = $('#CDWillow');
 
      /*These function hide and show different HTML elements when other elements are clicked. This allows the player to go down different paths.*/
     $Y.on('click', () => {
@@ -101,11 +110,57 @@ $(document).ready(() => {
         $Pactions.show();
     });
     
+    $CD.on('click', () => {
+        $choiceC.hide();
+        $choiceCD.show();
+        $Cactions.hide();
+        $CDLocate.show();
+    }); 
+
+    $PD.on('click', () => {
+        $choiceP.hide();
+        $choicePD.show();
+        $Pactions.hide();
+        $PDZombie.show();
+    }); 
+
+    $PDQuill.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+
+    $PDRun.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+
+    $PDDodge.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+
+    $CDRavine.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+
+    $CDWillow.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+
 });
 /*I copied and pasted these commented-out things, and then filled them in so I could work faster.*/
-/* $.on('click', () => {
-    $.hide();
-    $.show();
-    $.hide();
-  }); */ 
+/* 
+    $.on('click', () => {
+        $.hide();
+        $.show();
+        $.hide();
+    }); 
+*/ 
 //const $ = $('');
