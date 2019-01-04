@@ -82,7 +82,7 @@ $(document).ready(() => {
     const $PPRUnlockN = $('#PPRUnlockN');
     const $choiceCDRCrossEat = $('.choiceCDRCrossEat');
     const $choiceCDRCrossPet = $('.choiceCDRCrossPet');
-    const $CDRCBoss = $('.CDRCBoss');
+    const $CDRCPBoss = $('.CDRCPBoss');
     const $Cfight = $('.Cfight');
     const $run = $('.run');
     const $choiceCDWContN = $('.choiceCDWContN');
@@ -374,7 +374,6 @@ $(document).ready(() => {
     }); 
 
     $Cfight.on('click', () => {
-        alert("oyoy");
         $choiceCDRCrossPet.hide();
         $CDRCPBoss.hide();
         $choiceCDWContN.hide();
