@@ -94,7 +94,7 @@ $(document).ready(() => {
     const $choicePPQAttackY = $('.choicePPQAttackY');
     const $choicePPQAttackN = $('.choicePPQAttackN');
     const $PPQANBoss = $('.PPQANBoss');
-    const $Pfight = $('.Pfight');
+    const $Pfight = $('#Pfight');
     const $choicePPRLeaveLeave = $('.choicePPRLeaveLeave');
     const $choicePPRLeaveAttack = $('.choicePPRLeaveAttack');
     const $choicePPRUnlockY = $('.choicePPRUnlockY');
@@ -355,7 +355,7 @@ $(document).ready(() => {
     }); 
 
     $PPRLeaveAttack.on('click', () => {
-        $choicePPrLeave.hide();
+        $choicePPRLeave.hide();
         $choicePPRLeaveAttack.show();
         $PPRLPhoenix.hide();
     }); 
@@ -399,7 +399,7 @@ $(document).ready(() => {
         $choicePPRUnlockY.hide();
         $PPRUYBoss.hide();
         $choicePPQAttackN.hide();
-        $PPAANBoss.hide();
+        $PPQANBoss.hide();
         $choiceCDWBagelN.hide();
         $choiceCDWContN.hide();
         $choiceCDRCrossPet.hide();
