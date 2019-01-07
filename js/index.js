@@ -243,7 +243,7 @@ $(document).ready(() => {
 
     $PDQuillRun.on('click', () => {
         $choicePDQuill.hide();
-        $choiceiPDQRun.show();
+        $choicePPQRun.show();
         $PDQuillZ.hide();
     }); 
 
