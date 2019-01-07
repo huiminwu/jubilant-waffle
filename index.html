@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Space Choose-Your-Own Adventure Game</title>
+  <title>Hui Min's Choose-Your-Own Adventure Game</title>
       <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Yoboto+Mono" rel="stylesheet">
  
@@ -12,7 +12,7 @@
 <!-- sources: codepen: lillian busse, w3schools.com, codecademy, http://www.burkshelf.com/jquerytutorial.html -->
    <!--All of the paragraph tags under the prompt class are parts of the story. Things under the button class are button that can be clicked on.  -->
     <div class="intro prompt">
-        <p> You're walking out of your SciFi class and see a shiny box that's giving you weird vibes. Do you investigate? </p>
+        <p> You're walking out of your SciFi class and just as you're turning the corner to use the 6 to 8, you see a shiny box on top of the sophomore bar that's giving you weird vibes. Do you investigate? </p>
     <div class=" choice1 button">
       <p id="Y">Yes</p>
       <p class="N">No</p>
@@ -20,22 +20,22 @@
    </div>
     
     <div class="choiceY prompt a">
-      <p> You sneakily bring the box under your jacket and go to a bathroom. Phew, there's no one here. You proceed to go into a stall and open the box. All of sudden, purple particles jump out and form what looks like a portal. Do you step in? </p>
+      <p> You sneakily bring the box under your jacket and go to a bathroom. Phew, there's no one here. You proceed to go into a stall and open the box. All of sudden, purple particles float out and form what looks like a portal vortex. Do you step in? </p>
       <div class="choice2Y button">
-        <p id="YP">Yeah, I don't care about be late to class</p>
+        <p id="YP">Yeah, I don't care about being late to class</p>
         <p class="N">No, I need to get to Macro ASAP</p>
       </div>
     </div>
 
     <div class="choiceN prompt a">
-        <p> Wooooww, what a Debbie Downer! Live a little! </p>
+        <p> Wooooww, what a Debbie Downer! Live a little! A little adventure never hurt nobody! </p>
         <div class="button">
             <p class="restart"> Restart </p>
         </div>
     </div>
     
     <div class="choiceYP prompt a">
-        <h5> <i> Ah yes! I've been waiting for you! Greetings young one, I am your second cousin, twice removed. Even though we're quite distant relatives you are my chosen successor. This might sound insane, but I am the king of the Magic Realm and need to pass down my throne to someone as brave and smart as you. If you agree to this, you'll have to go through lots of tests to prove to my council you are worthy. In the end, if you get their approval, you'll give up your mortal life and commit to life in the Magic Realm. If you do not agree to this or get disapproved, I have no choice but to send you back to the mortal realm. So, what's your choice? </i></h5>
+        <h5> <i> Ah yes! I've been waiting for you! Greetings young one, I am your second cousin, twice removed, Hank. Even though we're quite distant relatives I've been watching you for the past few years. This might sound insane, but I am the king of the Magic Realm and need to pass down my throne to someone as brave and smart as you. If you agree to this, you'll have to go through a series of tests to prove to my council you are worthy. In the end, if you get their approval, you'll give up your mortal life and commit to life in the Magic Realm. If you do not agree to this or get disapproved, I have no choice but to send you back to the mortal realm. So, what's your choice? </i></h5>
       <div class="choice2YP button">
         <p id="YPC">Woah! This is so cool (some might say out of this world)! Let's do this! </p>
         <p id="NC">Sorry, this is mad wack and I gotta blast! </p>
@@ -43,14 +43,14 @@
     </div>
 
     <div class="choiceNC prompt a">
-        <p> <i> Okay, I'll transport you back to the end of your SciFi class. It was nice meeting you. </i> </p>
-        <div class="button">
+        <p> <i> Okay, I understand that this is a lot to take in. I'll transport you back to the end of your SciFi class. It was nice meeting you. </i> </p>
+        <dir class="button">
             <p class="restart"> Restart </p>
         </div>
     </div>
 
     <div class="choiceYPC prompt a">
-        <p> <i> Hooray! So glad you decided to join us! What will your beginner class be? </i> </p>
+        <p> <i> Wonderful! Let's go in this room, I have a surprise for you! </i> You enter the room and you see a three potraits of a robot, centaur, and pegasus! Your cousin tells you that you need to be a magical creature in the Magic Realm and these are the options. So, what will your beginner class be? </i> </p>
         <div class="choiceClass button">
             <p id="R"> Robot </p>
             <p id="C"> Centaur </p>
@@ -61,27 +61,258 @@
     <div class="choiceR prompt a">
         <p> <i> Oof. Robots do not belong to the Magic Realm silly! The council isn't happy but you can choose again. </i> </p>
         <div class="button">
-            <p id="returnClass"> Thank you! I'll be sure to make the right choice next time! </p>
+            <p class="returnClass"> Thank you! I'll be sure to make the right choice next time! </p>
         </div>
     </div>
 
     <div class="choiceC prompt a">
-        <p> <i> Cool! A centaur! Alright, here's an axe for defense. [task 1] </i> </p>
+        <p> <i> Cool! I was a centuar when I started out too! Alright, here's an axe for defense. I'm going to run some errands for now, but when you're ready, step into this door to begin your tasks. You'll do great! </i> Just as Hank leaves, your arm and legs turning hooves and you grow a tail. You're a little freaked out, but do you step in the door?  </p>
         <div class="Cactions button">
-            <p id="xx"> Lorem ipsum </p>
-            <p id="yy"> Lorem ipsum </p>
+            <p id="CD"> Enter door </p>
+            <p class="returnClass"> An axe? I ain't no lumberjack! I don't want to be a Centaur anymore. </p>
         </div>
     </div>
 
     <div class="choiceP prompt a">
-        <p> <i> Awesome! A pegasus! You've got wings equipped with throwable quills for defense. [task 1] </i> </p>
+        <p> <i> Awesome! A pegasus, what a spectacular choice! You've got wings equipped with throwable quills for defense.</i> Your legs and hands turn into hooves and wings start growing out of your back. There is a door that says, "ENTER if you wish to be tested." Step into this door to begin your tasks? </i> </p>
         <div class="Pactions button">
-            <p id="xx"> Lorem ipsum </p>
-            <p id="yy"> Lorem ipsum </p>
+            <p id="PD"> Enter door </p>
+            <p class="returnClass"> Ew, I don't want to be a Pegasus anymore. </p>
         </div>
     </div>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <div class="choicePD prompt a">
+        <p> As the door closes behind you, you feel a strong gust of wind. The sky turns a dark blue and there's just enough light from the moon to see a shadow ahead of you getting larger and larger. You stand there in shock, like a deer in headlights. Before you know it, the shadow turns out to be a very fast zombie, coming to eat you alive. What do you do? </p>
+        <div class="PDZombie button">
+            <p id="PDQuill"> Attack with quill </p>
+            <p id="PDRun"> I don't want to use my quills just yet. I can run faster than the zombie so I'll just run away. </p>
+            <p id="PDDodge"> The zombie is running straight at me, so I'll just try to dodge him. </p>
+        </div>
+    </div>
+
+    <div class="choiceCD prompt a">
+        <p> As soon as you enter the door, you’re met with a mist of fog. Your vision is severly impaired and you can't even see your feet. After strolling around for bit, the fog clears up and you see a ravine to your left and a big willow tree to your right. What do you do? </p>
+        <div class="CDLocate button">
+            <p id="CDRavine"> Let's go to the ravine. </p>
+            <p id="CDWillow"> Let's go to the tree. </p>
+        </div>
+    </div>
+    <!-- -->
+
+    <div class="choicePDQuill prompt a">
+        <p> You yank a quill off your wings and aim it at the zombie. The wind pushes the quill and it misses. You try again, adjusting to the wind, and it hits the zombie right in the eye. Just as the zombie begins to moan, his head falls off from the powerful force of the quill. It's body crawls towards you, but before you know it, its arms and legs fall off as well. The zombie's death triggers a new wave of zombies, seems like 10 or so. They're slowly walking towards you. What do you do?</p>
+        <div class="PDQuillZ button">
+            <p id="PDQuillRun"> Run! Ain't nobody got time for dat! </p>
+            <p id="PDQuillAttack"> Attack! I already killed one, might as well kill ten more. </p>
+        </div>
+    </div>
+
+    <div class="choicePDRun prompt a">
+        <p> You've been running for what seems like eternity, and you've seen nothing but dead trees and tumbleweed. Your mouth is getting dry and your stomach sounds like it's singing an opera. Your legs are about to give up on you, but you see a treasure ahead. You approach the chest and there seems to be a lock on it. What do you do? </p>
+        <div class="PDRunChest button">
+            <p id="PDRunLeave"> Leave it, it's not worth trying to break it open.</p>
+            <p id="PDRunUnlock"> Go back to the dead trees you walked pass and snap some twigs off. Sharpen the twigs and try to use them to pick the lock. </p>
+        </div>
+    </div>
+
+    <div class="choicePDDodge prompt a">
+        <p> You try to dodge the zombie but he just gets angrier and starts running faster. He eventually catches up and just as it's about to bite you, your second cousin, twice removed appears. <i> I am extremely disappointed in you. Who in their right mind thinks it's a good idea to dodge a ZOMBIE?! You're lucky I saved your life in time! Seeya never! </i> </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+    <!-- -->
+    <div class="choiceCDRavine prompt a">
+        <p> Onwards to the ravine! When you arrive, you come across a bridge to another foggy island. The bridge seems robust so nothing fishy there. However, in the actual ravine, are mobs of hungry zombies moanning at you. What do you do? </p>
+        <div class="CDRavineBridge button">
+            <p id="CDRavineRelocate"> I'm low-key afraid of heights. Let's go the tree instead! </p>
+            <p id="CDRavineCross"> These boots are made for walking and that's just what they do. Let's go to the bridge! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWillow prompt a">
+        <p> You make your trek to the willow tree and as you get closer, the wind begins to pick up. Your eyes can barely open because they're incredibly dry and you feel like you'll get lifted up any time now. You see a small house near the tree, where it doesn't seem as windy. What do you do? </p>
+        <div class="CDWillowWind button">
+            <p id="CDWillowCont"> Continue towards the tree </p>
+            <p id="CDWillowHouse"> Screw the tree, house here I come! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDRCross prompt a">
+        <p> As you're crossing the bridge, it shakes and you cling to the ropes for dear life. Despite almost passing out form anxiety, you make it successfully across! At the end, you see a small chicken. What do you do? </p>
+        <div class="CDRCrossChicken button">
+            <p id="CDRCrossEat"> OOOO! My dinner! </p>
+            <p id="CDRCrossPet"> OOOO! A pet! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWCont prompt a">
+        <p> You decide to continue walking towards the willow tree. After treking for hours and occasionally slapping yourself because this feels like a dream, you finally get there. At the bottom is a small puddle of water. Alas! You can thirst my quench. Should you? </p>
+        <div class="CDWArrive button">
+            <p id="CDWContN"> Nah, it's probably super dirty and that romaine lettuce giving people e.coli outbreak was scary! </p>
+            <p id="CDWContY"> Yee, let's drink it, I'm soooo thirsty! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWHouse prompt a">
+        <p> You decide to continue walking towards the house. It's pretty boring. Nothing to see but tumbleweed and dead trees. When you finally arrive, you step in and it seems empty. There's some bagels on the kitchen island. It's been a long and boring day. Finally something that reminds me of home! Do you eat it? </p>
+        <div class="CDWBagel button">
+            <p id="CDWBagelN"> Nah, it could give me diseases and this isn't even my house. </p>
+            <p id="CDWBagelY"> Yeah, why not? I'm starving! Where's the lox and cream cheese? </p>
+        </div>
+    </div>
+
+    <div class="choicePPQRun prompt a">
+        <p> You run for a while but you're running out of breath. You sit down and try to catch your breath, but you don't. Your lungs aren't quite used to this new Magic-Realm-air and you pass out. You wake up in front of the council, where they criticize your cowardry. <i> I really believed in you, but we don't like cowards. I'm going turn back time for us all and send you back to class. So long.</i></p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicePPQAttack prompt a">
+        <p> You attack the zombies and they all die. Good job. Since you're a pegasus, it's time to test out those wings! You try flying and land on this cloud. After a few seconds on balancing yourself, you realize the cloud is cotton candy! Do you eat? </p>
+        <div class="PPQACandy button">
+            <p id="PPQAttackY"> Yes! </p>
+            <p id="PPQAttackN"> No! </p>
+        </div>
+    </div>
+
+    <div class="choicePPRLeave prompt a">
+        <p> You leave the chest behind and continue running. You run towards a bright orange light, but it turns out that you're running towards a phoenix. It's breathing fire at you. Clearly, it does not want to be your friend. What do you do? </p>
+        <div class="PPRLPhoenix button">
+            <p id="PPRLeaveLeave"> Leave </p>
+            <p id="PPRLeaveAttack"> Attack </p>
+        </div>
+    </div>
+
+    <div class="choicePPRUnlock prompt a">
+        <p> You get the twigs and sharpen them. You try picking lock but no success. You hear the zombies coming closer. Do you try again? It's gonna take a while and you might get eaten alive. </p>
+        <div class="PPRUZombies button">
+            <p id="PPRUnlockY"> Yes </p>
+            <p id="PPRUnlockN"> No </p>
+        </div>
+    </div>
+    <!-- -->
+   
+    <div class="choiceCDRCrossEat prompt a">
+        <p> You eat the chicken. The chicken was suppose to be your pal and partner in crime. The council does not like how you easily succumb to temptation and banish you from the Magic Realm. Hank turns you back into a human and sends you back to the bathroom. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choiceCDRCrossPet prompt a">
+        <p> You take the chicken as your pet and it becomes your partner in crime. You encounter a giant about 10 times your size and he screams, "I WAS SUPPOSE TO TAKE THE THRONE! NOW, I MUST KILL YOU". Yikes what do you do? </p>
+        <div class="CDRCPBoss button">
+            <p class="Cfight"> Use that axe and FIGHT!</p>
+            <p class="run"> Run! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWContN prompt a">
+        <p> Good job. You don't drink the water and keep on walking. Along your trek, you come across a chicken and you start to care for it. It's pretty lonely in this Magic Realm and a friend couldn't hurt. All of a sudden, a giant about 10 times your size gets closer to you. He is screaming, "I WAS SUPPOSE TO TAKE THE THRONE! NOW, I MUST KILL YOU." Yikes, what do you do? </p>
+        <div class="CDWCNBoss button">
+            <p class="Cfight"> Use that axe and fiiiiight! </p>
+            <p class="run"> run </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWContY prompt a">
+        <p> Ew, why would you want to drink that water? The council is not happy to see someone so easily succumb to temptations. They refuse to speak to you and just send you back to class in silence. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWBagelN prompt a">
+        <p> Good for you. You don't eat the bagel and leave the house cause no one is there and bad things always happen to people in stranger's homes. Just two steps outside of the house, you encounter a chicken and you start to care for it. It's pretty lonely in this Magic Realm and a friend couldn't hurt. As you walk your chicken around, a giant ten times your size approaches you. He is screaming, "I WAS SUPPOSE TO TAKE THE THRONE! NOW, I MUST KILL YOU." Yikes, what do you do? </p>
+        <div class="CDWBNBoss button">
+            <p class="Cfight"> Use the axe and fight him off! </p>
+            <p class="run"> Run!!! </p>
+        </div>
+    </div>
+
+    <div class="choiceCDWBagelY prompt a">
+        <p> Ew, no ma'am. The bagel gives you blindness and your loud screams is heard by a giant. This giant finds you and as it's just about to eat you, Hank brings you back to the council. They collectively agree to banish you. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicePPQAttackY prompt a">
+        <p> You start eating off the cotton candy because you're so hungry. The candy is so good you can't stop and you end up ending the cloud you were standing. Taken by surprise, you don't remember to use your wings and fall to your death. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicePPQAttackN prompt a">
+        <p> You don't eat the candy and the council is impressed. You ascend more in the clouds and see a giant dragon. The giant dragon is HUMUNGOUS and he's screaming, "THAT WAS SUPPOSE TO BE MY THRONE. NOT I MUST KILL YOU!" What do you do? </p>
+        <div class="PPQANBoss button">
+            <p id="Pfight"> Fight! </p>
+            <p class="run"> Run! </p>
+        </div>
+    </div>
+
+    <div class="choicePPRLeaveLeave prompt a">
+        <p> You try fleeing but the phoenix's fire reaches very far and you are burnt to a crisp. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+    
+    <div class="choicePPRLeaveAttack prompt a">
+        <p> You attack the phoenix with your quills but they do little to know damage. The phoenix is much more powerful than you and burns you to a crisp. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+
+    <div class="choicePPRUnlockY prompt a">
+        <p> You take the risk and the chest opens! The chest gives you a special ability: fire breathing! Just as you get your ability the zombies are only a few feet away. What do you do? </p>
+        <div class="PPRUYBoss button">
+            <p id="PPRfight"> Let's test this fire breathing and fight! </p>
+            <p class="run"> Run! </p>
+        </div>
+    </div>
+
+    <div class="choicePPRUnlockN prompt a">
+        <p> You don't unlock the chest and just as you give up, you're transported to the council and they look very unhappy. They explain to you that they want rulers that know how to persevere. After hearing some more of their lecturing, they send you back to scifi class and wipe your memory.</p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choiceCfight prompt a">
+        <p> You chose to fight the giant. Even though it's much bigger than you, your chicken transforms into a dragon! To thank you for taking care of it, it fights the giant and sacrifices itself for you. Despite being deeply saddened by the death of your best friend, you appreciate it weakening the giant so much that you kill it after a few swings of the axe. You are so tired that you pass out, but you awake to a group of clapping counsel members. You are now the chair of the Magic Realm! </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicePfight prompt a">
+        <p> You chose to fight the dragon. Even thought it's much bigger than you, Hank steps in to help fight him off. <i> You know, my full name is actually Hank the dragonslayer! </i> You're relieved to hear this but not shortly afterwards, the dragon seems to gain the upper hand and Hank weakens so much that he falls from the sky to his death. You're heartbroken but also furious. You must avenge Hank! You use up all of your quills on the dragon and one lands on his Achilles heel and the dragon turns to mists. You are so tired that you pass out, but you awake to a group of clapping counsel members. You are now the chair of the Magic Realm! </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicePPRfight prompt a">
+        <p> You chose to fight the zombies! As they approach you get rid of most of the way with your fire breathing. With dead zombies on the group, the remaining trip over them and fall to their deaths. The few zombies that do move through the crowd of dead zombies frighten you for a little bit but you remember the axe you were given in the beginning of your journey. With one quick swing, all the zombies left die and you are transported to a room of clapping counsel members! You are now the chair of the Magic Realm Hoorah!!</p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+    <div class="choicerun prompt a">
+        <p> Why did you run away from your problems? That is not a good quality for a potential successor to the king of the Magic Realm. They caught up to you and killed you. </p>
+        <div class="button">
+            <p class="restart"> Restart </p>
+        </div>
+    </div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
     <script  src="js/index.js"></script>
 
